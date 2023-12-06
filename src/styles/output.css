@@ -859,6 +859,10 @@ html {
   flex-wrap: wrap-reverse;
 }
 
+.items-start{
+  align-items: flex-start;
+}
+
 .items-center{
   align-items: center;
 }
@@ -1056,6 +1060,10 @@ html {
   padding-bottom: 65px;
 }
 
+.pl-3{
+  padding-left: 0.75rem;
+}
+
 .pl-\[10px\]{
   padding-left: 10px;
 }
@@ -1078,6 +1086,10 @@ html {
 
 .pl-\[80px\]{
   padding-left: 80px;
+}
+
+.pr-3{
+  padding-right: 0.75rem;
 }
 
 .pr-\[10px\]{
@@ -1122,14 +1134,6 @@ html {
 
 .pt-\[50px\]{
   padding-top: 50px;
-}
-
-.pl-3{
-  padding-left: 0.75rem;
-}
-
-.pr-3{
-  padding-right: 0.75rem;
 }
 
 .text-center{
@@ -1362,6 +1366,10 @@ html {
     align-items: flex-start;
   }
 
+  .lg\:items-center{
+    align-items: center;
+  }
+
   .lg\:justify-start{
     justify-content: flex-start;
   }
@@ -1448,10 +1456,6 @@ html {
 
   .lg\:text-left{
     text-align: left;
-  }
-
-  .lg\:text-center{
-    text-align: center;
   }
 
   .lg\:text-\[32px\]{
